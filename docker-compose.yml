@@ -27,7 +27,7 @@ services:
       - red
       - app
     ports:
-      - 80:80
+      - 8080:80
       # - 8080:80
   red:
     image: node_red

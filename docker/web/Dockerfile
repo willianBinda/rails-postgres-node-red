@@ -25,7 +25,7 @@
     # vm2
     # EXPOSE 8080
     # vm1
-    EXPOSE 80
+    EXPOSE 8080
     
     # Use the "exec" form of CMD so Nginx shuts down gracefully on SIGTERM (i.e. `docker stop`)
     CMD [ "nginx", "-g", "daemon off;" ]
